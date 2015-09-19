@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+div.title {
+	background-color: pink;
+	background-image: url("img/logo.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 1em;
+}
+
+div.description, div.footer  {
+	background-color: hotpink;
+	padding: 0.5em;
+}
+
+div.footer {
+	height: 20%;
+}
+
+div.item {
+	height: 50%;
+}
+
+p.title {
+	position: relative;
+	color: floralwhite;
+	font-weight: bold;
+	font-size: 210%;
+	text-align: right;
+	top: 80%;
+	font-family: 'Poiret One', cursive;
+}
+
+p.description, p.footer {
+	position: relative;
+	color: floralwhite;
+	top: 0px;
+}
+
+p.description {
+    text-align: right;
+}
+
+p.footer {
+	text-align: center;
+}
+
+p.pergunta {
+	font-size: 40px;
+	font-family: 'Poiret One', cursive;
+}
+
+a.btn {
+	position: relative;
+	left: 85%; 
+}
+
+select, input {
+	position: relative;
+	top: 29.9%;
+}
+
+button {
+	position: relative;
+	top: 100%;
+}
+

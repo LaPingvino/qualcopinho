@@ -1,0 +1,134 @@
+<!-- Este site é de código aberto, segue todos os termos da licensa GNU versão 2007 que pode ser encontrada
+no repositório do projeto: https://github.com/RibeiroAna/whichmenstrualcup/blob/gh-pages/license.txt-->
+
+<!DOCTOTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Qual coletor comprar?r</title>
+		<link type="text/css" rel="stylesheet"  href="style/style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class = "description">
+			<p class="description">Se você ainda não conhece os coletores menstruais, 
+			sugerimos visitar a página <a href="http://www.vaidecopinho.com/page/204825-Sobre-os-coletores">Vai de Copinho</a>
+			Este quiz visa ajudar você a decidir qual copinho comprar em meio a tantos no mercado </p>
+		</div>
+	    <div class="title">
+		    <p class="title">Qual coletor menstrual comprar?</p>
+		</div>	
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- Indicators -->
+               <ol class="carousel-indicators">
+                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                   <li data-target="#myCarousel" data-slide-to="1"></li>
+                   <li data-target="#myCarousel" data-slide-to="2"></li>
+                   <li data-target="#myCarousel" data-slide-to="3"></li>
+                   <li data-target="#myCarousel" data-slide-to="4"></li>
+                   <li data-target="#myCarousel" data-slide-to="5"></li>
+                   <li data-target="#myCarousel" data-slide-to="6"></li>
+               </ol>
+
+            <div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<p class="pergunta" for="fluxo">Como é seu fluxo menstrual?</p>
+					<p class="descricao-pergunta" for="fluxo"></p>
+					<select id="fluxo" class="form-control">
+						<option></option>
+						<option value="alto">Médio a Alto</option>
+						<option value="baixo">Leve a Médio</option>
+					</select>
+				</div>
+
+				<div class="item">
+					<p class="pergunta" for="parto">Você já teve partos?</p>
+					<p class="descricao-pergunta" for="parto">Vaginais e/ou cesários</p>
+					<select id="parto" class="form-control">
+						<option></option>
+						<option value="sim">Sim</option>
+						<option value="nao">Não</option>
+					</select>
+				</div>
+
+				<div class="item">
+					<p class="pergunta" for="virgem">Você já fez sexo com penetração vaginal?</p>
+					<p class="descricao-pergunta" for="virgem"></p>
+					<select id="virgem" class="form-control">
+						<option></option>
+						<option value="sim">Sim</option>
+						<option value="nao">Não</option>
+					</select>
+				</div>
+
+				<div class="item">
+					<p class="pergunta" for="bexiga">Sua bexiga é sensível?</p>
+					<p class="descricao-pergunta" for="bexiga">Caso não saiba o que é bexiga sensível, <a href="http://omundodalea.blogspot.com.br/2013/05/o-que-e-bexiga-sensivel-descubra.html">clique aqui</a></p>
+					<select id="bexiga" class="form-control">
+						<option></option>
+						<option value="sim">Sim</option>
+						<option value="nao">Não</option>
+					</select>
+				</div>
+
+				<div class="item">
+					<p class="pergunta" for="exercicio">Você faz exercício físico regularmente?</p>
+					<p class="descricao-pergunta" for="exercicio">Consideramos como regularmente três ou mais vezes por semana, de 
+						preferência exercícios que fortificam a pélvis, como dança, yoga, tênis, etc.
+					</p>
+					<select id="exercicio" class="form-control">
+						<option></option>
+						<option value="sim">Sim</option>
+						<option value="nao">Não</option>
+					</select>
+				</div>
+
+				<div class="item">
+					<p class="pergunta" for="colo">O seu colo do útero está a mais de 4,5 centimetros?</p>
+					<p class="descricao-pergunta" for="colo">Caso não saiba como tocar seu colo do útero, recomendamos que
+						siga <a href="http://pt.wikihow.com/Sentir-Seu-Colo-do-%C3%9Atero">este guia</a> de preferência
+						quando estiver menstruada pois o colo de algumas mulheres desce ou sobe durante o período.
+					</p>
+					<select id="colo" class="form-control">
+						<option></option>
+						<option value="sim">Sim</option>
+						<option value="nao">Não</option>
+					</select>
+				</div>
+
+				<div class="item">
+					<p class="pergunta" for="idade">Qual é a sua idade? </p>
+					<p class="descricao-pergunta">Se sua idade for 30 anos, digite somente "30" (sem aspas)</p>
+				    <input id="idade" type="text" class="form-control"/>
+				</div>
+
+				<div class="item">
+					<p class="pergunta" for="altura">Qual é a sua altura? em cm </p>
+					<p class="descricao-pergunta" for="altura"> Se sua altura for 170cm (um metro e setenta), digite
+						somente "170" (sem aspas)</p>
+				    <input id="altura" type="text" class="form-control"/>
+				    <div class="item"><button class="btn btn-warning btn-block">Finalizar</button></div> 
+				</div>
+
+			   
+			     <a class="btn btn-default" href="#myCarousel" role="button" data-slide="next">
+      			   Próxima pergunta
+      			   <span class="glyphicon glyphicon-chevron-right"></span>
+    		     </a>
+    		
+		  </div>
+		  <br><br>
+		</div>
+		</div>
+		<div class="footer">
+			<p class="footer">Este software é livre, desenvolvido pelos termos da licensa GNU em 2015 por <a href="https://github.com/RibeiroAna/">
+			Ana Ribeiro</a> e segue os termos da mesma para distribuição. Os da.dos do quiz foram retirados quase em totalidade do
+			site Vai de copinho. Para contribuir com o quiz acesse o <a href="https://github.com/RibeiroAna/whichmenstrualcup">github</a>
+			do mesmo</p>
+		</div>
+	</body>
+</html>
