@@ -50,16 +50,16 @@ p.pergunta {
 
 a.btn {
 	position: relative;
-	left: 85%; 
+	left: 40%; 
 }
 
 select, input {
 	position: relative;
-	top: 29.9%;
+	top: 15%;
 }
 
 button {
 	position: relative;
-	top: 100%;
+	top: 45%;
 }
 
