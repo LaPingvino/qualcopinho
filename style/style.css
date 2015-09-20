@@ -37,6 +37,7 @@ p.description, p.footer {
 
 p.description {
     text-align: right;
+    font-size: 100%;
 }
 
 p.footer {
@@ -44,7 +45,7 @@ p.footer {
 }
 
 p.pergunta {
-	font-size: 40px;
+	font-size: 180%;
 	font-family: 'Poiret One', cursive;
 }
 
@@ -62,4 +63,5 @@ button {
 	position: relative;
 	top: 45%;
 }
+
 
